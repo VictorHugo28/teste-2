@@ -1,0 +1,123 @@
+header {
+    margin: 10px 0px 76px;
+}
+
+.link-header {
+    margin: 50px 25px 0px 45px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    line-break: 10px;
+}
+
+.button-header {
+    background: #6fbf44;
+    color: #ffff;
+    width: 130px;
+    height: 50px;
+    border-radius: 10.5px;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.logo-imagem {
+    top: 15px;
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    margin: 60px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 100px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 50px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #515151;
+    width: 510px;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.button {
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 5px;
+    background: #6FBF44;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0;
+        text-align: center;
+    }
+
+    p { 
+        display: block;
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+}
